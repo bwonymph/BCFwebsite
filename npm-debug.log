@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'particles.js' ]
+2 info using npm@4.1.2
+3 info using node@v6.9.4
+4 verbose config Skipping project config: /Users/bwonymph/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData particles.js
+9 silly fetchOtherPackageData particles.js
+10 silly cache add args [ 'particles.js', null ]
+11 verbose cache add spec particles.js
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'particles.js',
+12 silly cache add   scope: null,
+12 silly cache add   escapedName: 'particles.js',
+12 silly cache add   name: null,
+12 silly cache add   rawSpec: 'particles.js',
+12 silly cache add   spec: '/Users/bwonymph/Desktop/ZSWS/particles.js',
+12 silly cache add   type: 'local' }
+13 silly addLocalTarball shasum (computed) 6d41b2dfd94b9b8e8b96b95d1258f57efb11aada
+14 verbose addTmpTarball /Users/bwonymph/Desktop/ZSWS/particles.js not in flight; adding
+15 verbose correctMkdir /Users/bwonymph/.npm correctMkdir not in flight; initializing
+16 verbose addTmpTarball validating metadata from /Users/bwonymph/Desktop/ZSWS/particles.js
+17 verbose tar unpack /Users/bwonymph/Desktop/ZSWS/particles.js
+18 verbose tar unpacking to /var/folders/qv/nxqh1ktd1qdc7mvz0tvkvlw80000gp/T/npm-24318-8127a059/unpack-6887103b
+19 silly gentlyRm /var/folders/qv/nxqh1ktd1qdc7mvz0tvkvlw80000gp/T/npm-24318-8127a059/unpack-6887103b is being purged
+20 verbose gentlyRm don't care about contents; nuking /var/folders/qv/nxqh1ktd1qdc7mvz0tvkvlw80000gp/T/npm-24318-8127a059/unpack-6887103b
+21 silly gunzTarPerm modes [ '755', '644' ]
+22 error not a package /Users/bwonymph/Desktop/ZSWS/particles.js
+23 error addLocal Could not install /Users/bwonymph/Desktop/ZSWS/particles.js
+24 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/var/folders/qv/nxqh1ktd1qdc7mvz0tvkvlw80000gp/T/npm-24318-8127a059/unpack-6887103b/package.json'
+24 silly fetchPackageMetaData     at Error (native)
+24 silly fetchPackageMetaData  error for particles.js { Error: ENOENT: no such file or directory, open '/var/folders/qv/nxqh1ktd1qdc7mvz0tvkvlw80000gp/T/npm-24318-8127a059/unpack-6887103b/package.json'
+24 silly fetchPackageMetaData     at Error (native)
+24 silly fetchPackageMetaData   errno: -2,
+24 silly fetchPackageMetaData   code: 'ENOENT',
+24 silly fetchPackageMetaData   syscall: 'open',
+24 silly fetchPackageMetaData   path: '/var/folders/qv/nxqh1ktd1qdc7mvz0tvkvlw80000gp/T/npm-24318-8127a059/unpack-6887103b/package.json' }
+25 silly rollbackFailedOptional Starting
+26 silly rollbackFailedOptional Finishing
+27 silly runTopLevelLifecycles Finishing
+28 silly install printInstalled
+29 verbose stack Error: ENOENT: no such file or directory, open '/var/folders/qv/nxqh1ktd1qdc7mvz0tvkvlw80000gp/T/npm-24318-8127a059/unpack-6887103b/package.json'
+29 verbose stack     at Error (native)
+30 verbose cwd /Users/bwonymph/Desktop/ZSWS
+31 error Darwin 15.6.0
+32 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "particles.js"
+33 error node v6.9.4
+34 error npm  v4.1.2
+35 error path /var/folders/qv/nxqh1ktd1qdc7mvz0tvkvlw80000gp/T/npm-24318-8127a059/unpack-6887103b/package.json
+36 error code ENOENT
+37 error errno -2
+38 error syscall open
+39 error enoent ENOENT: no such file or directory, open '/var/folders/qv/nxqh1ktd1qdc7mvz0tvkvlw80000gp/T/npm-24318-8127a059/unpack-6887103b/package.json'
+40 error enoent ENOENT: no such file or directory, open '/var/folders/qv/nxqh1ktd1qdc7mvz0tvkvlw80000gp/T/npm-24318-8127a059/unpack-6887103b/package.json'
+40 error enoent This is most likely not a problem with npm itself
+40 error enoent and is related to npm not being able to find a file.
+41 verbose exit [ -2, true ]
