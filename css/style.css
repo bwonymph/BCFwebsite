@@ -1436,19 +1436,19 @@ Social Links
     background-repeat: no-repeat !important
 }
 
-#sponsors2 {
+#register {
   background: white;
   width:   100%;
   padding: 90px 0;
 }
 
-#sponsors2 .CryptoParency { background: url('../img/crypto.png');     }
-#sponsors2 .BaB { background: url('../img/B@B.png');     }
-#sponsors2 .dekrypt { background: url('../img/deKrypt.png');     }
-#sponsors2 .ZSB { background: url('../img/ZSB_logonew.png');     }
+#register .CryptoParency { background: url('../img/crypto.png');     }
+#register .BaB { background: url('../img/B@B.png');     }
+#register .dekrypt { background: url('../img/deKrypt.png');     }
+#register .ZSB { background: url('../img/ZSB_logonew.png');     }
 
 
-#sponsors2 figure, #sponsors2 a, #supporters2 a {
+#register figure, #register a, #supporters2 a {
   margin:  0 20px;
   padding: 0;
 
