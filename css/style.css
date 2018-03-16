@@ -1654,6 +1654,13 @@ a.hover-line{
   color: rgb(153, 153, 153);
 }
 
+.body3 {
+  font-family: Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+  line-height: 1.6;
+  font-weight: 600;
+  color: rgb(153, 153, 153);
+}
 /* ---- particles.js container ---- */
 
 #particles-js{
