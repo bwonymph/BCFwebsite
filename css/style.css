@@ -1695,4 +1695,14 @@ a.hover-line{
 }
 
 
+.clock {
+    width: 460px;
+    height: 116px;
+    margin: 0 auto;
+}
 
+a.nav-link:link
+{
+   color: black;
+   text-decoration: none;
+}
