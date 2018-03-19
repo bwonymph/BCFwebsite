@@ -15,6 +15,11 @@
 -Modal Iframe
  */
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
   font-family: Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -1796,3 +1801,5 @@ a.nav-link:link
 .header.no-clock .version { font-size: 16px; }
 .buttons a { display: inline-block !important; margin-right: .5em; width: auto; }
 .buttons a:last-child { margin-right: 0; }
+
+
