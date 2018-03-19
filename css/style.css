@@ -1780,3 +1780,19 @@ a.nav-link:link
   .flip-clock-wrapper ul { width: 37px; }
   .flip-clock-wrapper ul li a div div.inn { font-size: 30px; }
 }
+
+.header .flip-clock-divider.seconds .flip-clock-label { right: -114px; }
+.header .flip-clock-divider.minutes .flip-clock-label { right: -110px; }
+.header .flip-clock-divider.hours .flip-clock-label { right: -102px; }
+.header .flip-clock-dot { background: rgb(160, 160, 160); }
+.header .buttons { text-align: center; margin: 60px 0 0;}
+
+.header.no-clock { padding: 25px 0 75px; }
+.header.no-clock .clock { display: none; }
+.header.no-clock .buttons { float: right;  margin: 7px 2em; }
+.header.no-clock .buttons a { display: none; font-size: 20px; }
+.header.no-clock .buttons a:first-child { display: inline-block; }
+.header.no-clock h1 { position: absolute; left: .5em; top: 15px; margin: 0; font-size: 50px; }
+.header.no-clock .version { font-size: 16px; }
+.buttons a { display: inline-block !important; margin-right: .5em; width: auto; }
+.buttons a:last-child { margin-right: 0; }
