@@ -1135,6 +1135,9 @@ Social Links
 #sponsors .BC { background: url('../img/BC.png');     }
 #sponsors .Cosmos { background: url('../img/COSMOS-.png');     }
 #sponsors .Icon { background: url('../img/ICON.png');     }
+#sponsors .zero { background: url('../img/0x.png');     }
+#sponsors .bodhi { background: url('../img/Bodhi.jpg');     }
+#sponsors .zcash { background: url('../img/Zcash.png');     }
 
 .tier, .tier a {
   display: inline-block;
