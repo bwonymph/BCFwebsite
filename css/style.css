@@ -238,8 +238,19 @@ a:focus {
   padding: 100px 0;
 }
 
+
+
 .thin-header {
   font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #999;
+  font-family: 'Helvetica Neue', Avenir, Helvetica, Arial, sans-serif;
+}
+
+.thin-header2 {
+  margin-top: 3em;
+  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #999;
