@@ -1141,7 +1141,7 @@ Social Links
 #sponsors .nebulas { background: url('../img/Nebulas.png');     }
 #sponsors .NEO { background: url('../img/NEO.png');     }
 #sponsors .SS { background: url('../img/Shapeshift.png');     }
-#sponsors .UN { background: url('../img/U-Network.jpg');     }
+#sponsors .UN { background: url('../img/un.png');     }
 #sponsors .AELF { background: url('../img/AELF.png');     }
 #sponsors .BC { background: url('../img/BC.png');     }
 #sponsors .Cosmos { background: url('../img/COSMOS-.png');     }
@@ -1149,6 +1149,7 @@ Social Links
 #sponsors .zero { background: url('../img/0x.png');     }
 #sponsors .bodhi { background: url('../img/Bodhi.jpg');     }
 #sponsors .zcash { background: url('../img/Zcash.png');     }
+#sponsors .nkn { background: url('../img/NKN2.jpg');     }
 
 .tier, .tier a {
   display: inline-block;
