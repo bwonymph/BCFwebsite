@@ -1153,7 +1153,10 @@ Social Links
 #sponsors .spank { background: url('../img/spankchain.png');     }
 #sponsors .quant { background: url('../img/quantstamp.png');     }
 #sponsors .concen { background: url('../img/Consensys.png');     }
-
+#sponsors .pp { background: url('../img/ProjectPai.png');     }
+#sponsors .gno { background: url('../img/Gnosis.jpg');     }
+#sponsors .gbic { background: url('../img/GBIC.jpg');     }
+#sponsors .cc { background: url('../img/connectcapital.png');     }
 
 .tier, .tier a {
   display: inline-block;
@@ -1246,6 +1249,11 @@ Social Links
   height:     90px;
 }
 
+.tier5 a {
+  min-width: 250px; /* Split into 2 columns */
+  width:       20%;
+  height:     110px;
+}
 
 
 #partners .tier4 a {
