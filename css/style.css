@@ -1150,6 +1150,10 @@ Social Links
 #sponsors .bodhi { background: url('../img/Bodhi.jpg');     }
 #sponsors .zcash { background: url('../img/Zcash.png');     }
 #sponsors .nkn { background: url('../img/NKN2.jpg');     }
+#sponsors .spank { background: url('../img/spankchain.png');     }
+#sponsors .quant { background: url('../img/quantstamp.png');     }
+#sponsors .concen { background: url('../img/Consensys.png');     }
+
 
 .tier, .tier a {
   display: inline-block;
