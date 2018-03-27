@@ -1142,7 +1142,7 @@ Social Links
 }
 
 
-#sponsors .CryptoParency { background: url('../img/crypto.png');     }
+#sponsors .CryptoParency { background: url('../img/cryptop2.png');     }
 #sponsors .BaB { background: url('../img/B@B.png');     }
 #sponsors .dekrypt { background: url('../img/deKrypt.png');     }
 #sponsors .ZSB { background: url('../img/ZSB_logonew.png');     }
@@ -1155,7 +1155,7 @@ Social Links
 #sponsors .Cosmos { background: url('../img/COSMOS-.png');     }
 #sponsors .Icon { background: url('../img/ICON.png');     }
 #sponsors .zero { background: url('../img/0x.png');     }
-#sponsors .bodhi { background: url('../img/Bodhi.jpg');     }
+#sponsors .bodhi { background: url('../img/bodhi2.png');     }
 #sponsors .zcash { background: url('../img/Zcash.png');     }
 #sponsors .nkn { background: url('../img/NKN2.jpg');     }
 #sponsors .spank { background: url('../img/spankchain.png');     }
@@ -1165,6 +1165,12 @@ Social Links
 #sponsors .gno { background: url('../img/Gnosis.jpg');     }
 #sponsors .gbic { background: url('../img/GBIC.jpg');     }
 #sponsors .cc { background: url('../img/connectcapital.png');     }
+#sponsors .fs { background: url('../img/500Startups.png');     }
+#sponsors .dbc { background: url('../img/DeepBrainChain.png');     }
+#sponsors .trust { background: url('../img/trust-token.png');     }
+#sponsors .abra { background: url('../img/ABRA.png');     }
+#sponsors .iotx { background: url('../img/IoTex.jpg');     }
+
 
 .tier, .tier a {
   display: inline-block;
