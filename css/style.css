@@ -1554,4 +1554,9 @@ a.nav-link:link
 .buttons a { display: inline-block !important; margin-right: .5em; width: auto; }
 .buttons a:last-child { margin-right: 0; }
 
+ #map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
 
