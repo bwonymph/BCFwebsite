@@ -194,7 +194,7 @@ var TxtType = function(el, toRotate, period) {
 
 
       function initMap() {
-        var uluru = {lat: 37.8696559, lng: -122.2536191};
+        var uluru = {lat: 37.869656, lng: -122.251430};
         var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 17,
           center: uluru
