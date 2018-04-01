@@ -487,6 +487,22 @@ a:focus {
   color:black;
 }
 
+#resume {
+  color: black;
+}
+
+#resume:hover {
+  color: white;
+}
+
+.desc {
+  font-size: 15px;
+}
+
+.desc .body3 {
+  color: #888888;
+}
+
 
 a.main-title-sub {
   display: inline-block;
