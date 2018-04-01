@@ -128,7 +128,7 @@
                           clock = $('.clock').FlipClock(diff, {
                             clockFace: 'DailyCounter',
                             countdown: true,
-                            showSeconds: true
+                            showSeconds: window.innerWidth > 700,
                           });
                         });
                       </script>
