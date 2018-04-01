@@ -496,13 +496,18 @@ a:focus {
 }
 
 .desc {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .desc .body3 {
   color: #888888;
 }
 
+@media (min-width: 740px) {
+  .desc {
+    font-size: 22px;
+  }
+}
 
 a.main-title-sub {
   display: inline-block;
@@ -554,6 +559,8 @@ button.butt.substatement.block {
   transition-duration: .4s;
   margin-right: 8px;
   margin-left: 8px;
+  color: white !important;
+  background-color: black;
 }
 
 
@@ -580,7 +587,7 @@ button.butt.substatement.block {
 
 .butt:hover {
   color:white;
-  background:black;
+  background:gray;
 }
 
 #about {
