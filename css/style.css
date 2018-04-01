@@ -151,12 +151,18 @@ a:focus {
 .header-image {
   width:auto;
   max-width:80%;
-  height:200px;
+  height:180px;
 }
 
 @media (max-width: 768px) {
   .header-image {
     height: 100px;
+  }
+}
+
+@media (max-width: 1224px) {
+  .header-image {
+    height: 140px;
   }
 }
 
