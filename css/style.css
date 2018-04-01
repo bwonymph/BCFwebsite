@@ -149,9 +149,10 @@ a:focus {
 }
 
 .header-image {
+  margin-top: 5rem;
   width:auto;
   max-width:80%;
-  height:180px;
+  height:150px;
 }
 
 @media (max-width: 768px) {
