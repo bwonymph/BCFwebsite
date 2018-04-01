@@ -1568,7 +1568,7 @@ a.nav-link:link
 
   .flip-clock-divider .flip-clock-label { font-size: 16px; }
   .flip-clock-divider.days .flip-clock-label { right: -50px; }
-  .flip-clock-divider.hours .flip-clock-label { right: -50px; }
+  .flip-clock-divider.hours .flip-clock-label { right: -55px; }
   .flip-clock-divider.minutes .flip-clock-label { right: -60px; }
   .flip-clock-divider.seconds .flip-clock-label { right: -66px; }
 
