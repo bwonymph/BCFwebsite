@@ -1454,7 +1454,7 @@ a.hover-line{
 
 
 .clock {
-    width: 630px;
+    width: 660px;
     height: 116px;
     margin: 0 auto;
 }
@@ -1519,7 +1519,7 @@ a.nav-link:link
   .flip-clock-divider { height: 50px; }
   .flip-clock-dot { height: 6px; width: 6px; left: 7px;}
   .flip-clock-dot.top { top: 17px; }
-  .flip-clock-dot.bottom { bottom: 8px; }
+  .flip-clock-dot.bottom { bottom: 8px;marker }
 
   .grand-button,
   a.grand-button,
@@ -1530,12 +1530,13 @@ a.nav-link:link
   }
 
   .flip-clock-divider .flip-clock-label { font-size: 16px; }
-  .flip-clock-divider.hours .flip-clock-label { right: -66px; }
-  .flip-clock-divider.minutes .flip-clock-label { right: -78px; }
-  .flip-clock-divider.seconds .flip-clock-label { right: -78px; }
+  .flip-clock-divider.days .flip-clock-label { right: -50px; }
+  .flip-clock-divider.hours .flip-clock-label { right: -50px; }
+  .flip-clock-divider.minutes .flip-clock-label { right: -60px; }
+  .flip-clock-divider.seconds .flip-clock-label { right: -66px; }
 
-  .flip-clock-wrapper ul { width: 37px; }
-  .flip-clock-wrapper ul li a div div.inn { font-size: 30px; }
+  .flip-clock-wrapper ul { width: 22px; }
+  .flip-clock-wrapper ul li a div div.inn { font-size: 27px; }
 }
 
 .header .flip-clock-divider.seconds .flip-clock-label { right: -114px; }
