@@ -862,6 +862,29 @@ button.butt.substatement.block {
   height: 100%;
 }
 
+
+/* Media */
+.complogo {@
+  height: 200px;
+  width: auto;
+}
+
+.compmedia {
+  text-align: center;
+}
+
+.compvid {
+  width: 95%;
+  height: 300px;
+}
+
+@media(min-width: 970px ) {
+  .compvid {
+    width: 80%;
+    height: 500px;
+  }
+}
+
 /* Speakers */
 
 #speakers{
