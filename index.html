@@ -305,34 +305,6 @@
 </section>
 <br>
 
-<section id="media" class="">
-    <div class="container">
-        <div class="row">
-            <h2 class="text-center thin-header">Media
-                <button class="btn btn-primary" @click="showMedia = !showMedia">toggle</button>
-            </h2>
-            <div v-if="showMedia">
-                <div class="tier tier1 complogo compmedia" id="sponsors" style="padding: 0">
-                    <a data-mode="2" target="_blank" class="CryptoParency" href="http://cryptoparency.com/"></a>
-                </div>
-                <p class="text-center">{{companyInfo}}</p>
-                <div class="text-center">
-                    <iframe :width="vidWidth" :height="vidHeight" src="https://www.youtube.com/embed/9FYFPzxoJBY"
-                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-                <br>
-                <div class="text-center">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc8azXkj-O3Eo_s6-7KpRJxnnIH_a9GwjPU6DpgiAlEVw1aeQ/viewform"
-                       target="_blank">
-                        <button class="butt substatement" id="resume">Submit Résumé</button>
-                    </a>
-                </div>
-                <br>
-            </div>
-        </div>
-    </div>
-</section>
-
 <section id="map">
 
 </section>
@@ -368,6 +340,34 @@
                 </div>
             </div>
         </footer>
+    </div>
+</section>
+
+<section id="media" class="">
+    <div class="container">
+        <div class="row">
+            <h2 class="text-center thin-header">Media
+                <button class="btn btn-primary" @click="showMedia = !showMedia">toggle</button>
+            </h2>
+            <div v-if="showMedia">
+                <div class="tier tier1 complogo compmedia" id="sponsors" style="padding: 0">
+                    <a data-mode="2" target="_blank" class="CryptoParency" href="http://cryptoparency.com/"></a>
+                </div>
+                <p class="text-center">{{companyInfo}}</p>
+                <div class="text-center">
+                    <iframe :width="vidWidth" :height="vidHeight" src="https://www.youtube.com/embed/9FYFPzxoJBY"
+                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <br>
+                <div class="text-center">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc8azXkj-O3Eo_s6-7KpRJxnnIH_a9GwjPU6DpgiAlEVw1aeQ/viewform"
+                       target="_blank">
+                        <button class="butt substatement" id="resume">Submit Résumé</button>
+                    </a>
+                </div>
+                <br>
+            </div>
+        </div>
     </div>
 </section>
 
