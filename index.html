@@ -303,6 +303,7 @@
     </div>
 </section>
 <br>
+
 <section id="media" class="">
     <div class="container">
         <div class="row">
@@ -310,8 +311,9 @@
             <div class="tier tier1 complogo compmedia" id="sponsors" style="padding: 0">
                 <a data-mode="2" target="_blank" class="CryptoParency" href="http://cryptoparency.com/"></a>
             </div>
+            <p class="text-center">{{companyInfo}}</p>
             <div class="text-center">
-                <iframe class="compvid" width="560" height="315" src="https://www.youtube.com/embed/9FYFPzxoJBY"
+                <iframe :width="vidWidth" :height="vidHeight" src="https://www.youtube.com/embed/9FYFPzxoJBY"
                         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
             <br>
@@ -324,7 +326,6 @@
             <br>
         </div>
     </div>
-
 </section>
 
 <section id="map">
@@ -388,5 +389,6 @@
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcrZwV2pDFM-tvXmNrTU0t5Aei4v4rlMk&callback=initMap">
 </script>
-
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script async defer src="./js/mediaApp.js"></script>
 </html>

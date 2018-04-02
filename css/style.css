@@ -873,18 +873,6 @@ button.butt.substatement.block {
   text-align: center;
 }
 
-.compvid {
-  width: 95%;
-  height: 300px;
-}
-
-@media(min-width: 970px ) {
-  .compvid {
-    width: 80%;
-    height: 500px;
-  }
-}
-
 /* Speakers */
 
 #speakers{
