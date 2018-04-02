@@ -6,6 +6,7 @@ new Vue({
     vidWidth: 300,
     showMedia: false,
     readyToRender: false,
+    sponsors: ['CryptoParency', 'dekrypt', 'BaB'],
   },
   methods: {
   },

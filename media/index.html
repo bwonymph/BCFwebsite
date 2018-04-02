@@ -8,32 +8,89 @@
     <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
-    <section id="media" class="">
-        <div class="container">
-            <div class="row">
-                <h2 class="text-center thin-header">Media</h2>
-                <div class="tier tier1 complogo compmedia" id="sponsors" style="padding: 0">
-                    <a data-mode="2" target="_blank" class="CryptoParency" href="http://cryptoparency.com/"></a>
-                </div>
-                <p class="text-center">{{companyInfo}}</p>
-                <div class="text-center">
-                    <iframe :width="vidWidth" :height="vidHeight" src="https://www.youtube.com/embed/9FYFPzxoJBY"
-                            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                </div>
-                <br>
-                <div class="text-center">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc8azXkj-O3Eo_s6-7KpRJxnnIH_a9GwjPU6DpgiAlEVw1aeQ/viewform"
-                       target="_blank">
-                        <button class="butt substatement" id="resume">Submit Résumé</button>
-                    </a>
-                </div>
-                <br>
-            </div>
+<!-- NAVIGATION BAR -->
+<div id="header" class="header sticky" style="background-color: black">
+    <a href="#home">
+        <img src="img/BCF.png" class="nav-logo" alt="">
+    </a>
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li id="navbar_home" class="navlink"><a href="#home">Home</a></li>
+            <!--           <li id="navbar_about" class="navlink"><a href="#sponsors3">Sponsors</a></li>
+             -->
+            <li id="navbar_press" class="navlink"><a href="#register">Register</a></li>
+            <li id="navbar_press" class="navlink"><a href="#sponsors">Sponsors</a></li>
+            <li id="navbar_press" class="navlink"><a href="#location">Location</a></li>
+            <!-- <li id="navbar_press" class="navlink"><a href="#media">Media</a></li> -->
+            <li id="navbar_press" class="navlink"><a href="#info">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+
+<section id="media" class="">
+    <div class="container">
+        <h2 class="text-center thin-header">Media</h2>
+
+        <div class="tierbtn" id="sponsors" style="padding: 0">
+            <template v-for="sponsor in sponsors">
+                <a data-mode="2" target="_blank" :class="sponsor" href="http://cryptoparency.com/"></a>
+            </template>
         </div>
-    </section>
+        <div class="wrapper">
+            <div class="text-center">
+                <iframe :width="vidWidth" :height="vidHeight" src="https://www.youtube.com/embed/9FYFPzxoJBY"
+                        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="text-center">
+                <p class="text-center">[company name]</p>
+                <p class="text-center">{{companyInfo}}</p>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSc8azXkj-O3Eo_s6-7KpRJxnnIH_a9GwjPU6DpgiAlEVw1aeQ/viewform"
+                   target="_blank">
+                    <button class="butt substatement" id="resume">Submit Résumé</button>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
 </body>
+<script src="../js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 <script async defer src="mediaApp.js"></script>
 </html>
+
+<style>
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /*
+    @media only screen and (min-width: 768px) {
+        .wrapper {
+            display: grid;
+            grid-template-columns: 100%;
+        }
+    } */
+
+    .tierbtn {
+        display: inline;
+    }
+
+    .tierbtn a {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+    }
+</style>
 
 <!-- http://localhost:63342/BCFwebsite/videos/index.html -->
