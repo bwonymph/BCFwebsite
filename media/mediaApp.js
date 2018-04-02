@@ -1,5 +1,5 @@
 new Vue({
-  el: '#app',
+  el: '#media',
   data: {
     companyInfo: '[placeholder company summary]',
     vidHeight: 300,
