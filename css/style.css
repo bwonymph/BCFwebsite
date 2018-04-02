@@ -1233,7 +1233,12 @@ Social Links
 #sponsors .thunder { background: url('../img/thunder.jpg');     }
 #sponsors .okex { background: url('../img/OKCOIN.png');     }
 #sponsors .lino { background: url('../img/Lino.png');     }
-#sponsors .nadgrid { background: url('../img/NADgrid.png');     }
+#sponsors .nadgrid { background: url('../img/NADgrid.jpg');     }
+#sponsors .libra { background: url('../img/libra.png');     }
+
+#sponsors a:hover {
+  transform: scale(1.1);
+}
 
 .tier, .tier a {
   display: inline-block;
