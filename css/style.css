@@ -863,15 +863,18 @@ button.butt.substatement.block {
 }
 
 
-/* Media */
+/* Videos */
+
+#media {
+  padding: 90px 0;
+}
+
 .complogo {
   height: 200px;
   width: auto;
-}
-
-.compmedia {
   text-align: center;
 }
+
 
 /* Speakers */
 

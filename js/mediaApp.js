@@ -4,6 +4,9 @@ new Vue({
     companyInfo: '[placeholder company summary]',
     vidHeight: 300,
     vidWidth: 300,
+    showMedia: false,
+  },
+  methods: {
   },
   created() {
     this.vidWidth = Math.min(window.innerWidth * .8, 700);
