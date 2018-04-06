@@ -1260,6 +1260,7 @@ Social Links
 #sponsors .daglabs { background: url('../img/daglabs.png');     }
 #sponsors .harbor { background: url('../img/harbor.png');     }
 #sponsors .coinbase { background: url('../img/coinbase-logo.png');     }
+#sponsors .fundrequest { background: url('../img/Fundrequest.png');     }
 
 #sponsors a:hover {
   transform: scale(1.1);
