@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1;">
-    <title>Blockchain Career Fair</title>
-    <link rel="icon" href="./img/favicon.ico">
-
+    <meta charset="UTF-8">
     <!-- Social Media Links-->
     <meta property="og:image" content="http://blockchaincareerfair.io/img/prev2.jpg"/>
     <meta property="og:image:width" content="2160"/>
     <meta property="og:image:height" content="2160"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Blockchain Career Fair"/>
+    <meta property="og:title" content="Blockchain Career Fair Livestream"/>
     <meta property="og:description"
           content="The 1st Ever Blockchain Career Fair in Silicon Valley. April 18th 3pm-7:30pm"/>
     <meta property="og:url" content="blockchaincareerfair.io"/>
 
+    <title>test</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="../css/elegant-icons.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet">
 </head>
 <body>
-
 <!-- NAVIGATION BAR -->
 <div id="header" class="header sticky" style="background-color: black">
     <a href="../">
@@ -36,58 +33,70 @@
 
 <section id="media" class="">
     <div class="container">
-            <div class="row">
-                <h2 class="text-center thin-header">Live Stream</h2>
-                <div class="col-md-4 tier tier2">
-                    <a data-mode="2" target="_blank" class="CryptoParency" href="http://cryptoparency.com/"></a>
-                    <a data-mode="2" target="_blank" class="dekrypt" href="http://www.dekrypt.capital/"></a>
-                </div>
+        <h2 class="text-center thin-header" style="color: black">
+            <i class="fa fa-facebook-square" style="display: inline-block; color: darkblue"></i>
+            Livestream</h2>
+        <hr>
+
+        <div class="tierbtn" id="sponsors" style="padding: 0">
+            <div>
+                <a data-mode="2" target="_blank" :class="sponsors[0]"
+                   href="https://www.facebook.com/CryptoParency/">
+                    <i class="fa fa-link" style="padding-top: 2.5em"></i>
+                </a>
             </div>
-        <div class="tierbtn" id="sponsor" style="padding: 0">
-            <template v-for="sponsor in sponsors">
-                <a data-mode="2" target="_blank" :class="sponsor" href="http://cryptoparency.com/"></a>
-            </template>
+            <div class="">
+                <a data-mode="2" target="_blank" :class="sponsors[1]" href="https://www.facebook.com/dekryptcapital/">
+                    <i class="fa fa-link" style="padding-top: 2.5em"></i>
+                </a>
+            </div>
         </div>
-        <div class="wrapper">
-            <div class="schedule"></div>
-            <div class="schedule"></div>
+        <div class="wrapper" id="sponsors" style="padding: 0">
+            <div class="text-center">
+                <h4 class="thin-header3">SCHEDULE</h4>
+                <p class="text-center">TBA</p>
+            </div>
+            <div class="text-center">
+                <h4 class="thin-header3">SCHEDULE</h4>
+                <p class="text-center">TBA</p>
+            </div>
         </div>
     </div>
 </section>
 </body>
-
+<script src="../js/main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-
-<script>
-  new Vue({
-    el: '#media',
-    data: {
-      vidHeight: 300,
-      vidWidth: 300,
-      sponsors: ['CryptoParency', 'dekrypt'],
-    },
-    methods: {
-    },
-    created() {
-      this.vidWidth = Math.min(window.innerWidth * .8, 700);
-    }
-  });
-</script>
+<script async defer src="mediaApp.js"></script>
+</html>
 
 <style>
     .wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
 
-    .schedule {
-        width: 200px;
-        height: 200px;
+    /*
+    @media only screen and (min-width: 768px) {
+        .wrapper {
+            display: grid;
+            grid-template-columns: 100%;
+        }
+    } */
+
+    .tierbtn {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        margin: 0 auto;
     }
+
+    .tierbtn a {
+        display: inline-block;
+        height: 100px;
+        width: 200px;
+        margin: 0 auto !important;
+    }
+
 </style>
 
-
-<script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcrZwV2pDFM-tvXmNrTU0t5Aei4v4rlMk&callback=initMap">
-</script>
-</html>
+<!-- http://localhost:63342/BCFwebsite/videos/index.html -->

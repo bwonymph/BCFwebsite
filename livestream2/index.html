@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1;">
+    <title>Blockchain Career Fair</title>
+    <link rel="icon" href="./img/favicon.ico">
+
+    <!-- Social Media Links-->
+    <meta property="og:image" content="http://blockchaincareerfair.io/img/prev2.jpg"/>
+    <meta property="og:image:width" content="2160"/>
+    <meta property="og:image:height" content="2160"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Blockchain Career Fair"/>
+    <meta property="og:description"
+          content="The 1st Ever Blockchain Career Fair in Silicon Valley. April 18th 3pm-7:30pm"/>
+    <meta property="og:url" content="blockchaincareerfair.io"/>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .schedule-header {
+            display: inline-block;
+            width: 250px;
+            height: 90px;
+            background-color: gray;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        #media .CryptoParency { background: url('cryptop2.png');     }
+        #meida .dekrypt { background: url('deKrypt.png');     }
+    </style>
+</head>
+<body>
+
+<!-- NAVIGATION BAR -->
+<div id="header" class="header sticky" style="background-color: black">
+    <a href="../">
+        <img src="../img/BCF.png" class="nav-logo" alt="">
+    </a>
+    <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li id="navbar_home" class="navlink"><a href="../">Home</a></li>
+        </ul>
+    </div>
+</div>
+
+<section id="media" class="">
+    <div class="container text-center">
+        <h2 class="thin-header">Live Stream</h2>
+        <div class="wrapper">
+            <template v-for="sponsor in sponsors">
+                <!--<a data-mode="2" target="_blank" :class="sponsor" href="http://cryptoparency.com/"></a>-->
+                <div class="">
+                        <div class="schedule-header" :class="sponsor"></div>
+                </div>
+            </template>
+        </div>
+    </div>
+    <img src="../img/cryptop2.png" alt="" style="height: 90px; width: 250px;">
+</section>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+
+<script>
+  new Vue({
+    el: '#media',
+    data: {
+      vidHeight: 90,
+      vidWidth: 250,
+      sponsors: ['CryptoParency', 'dekrypt'],
+    },
+    methods: {
+    },
+    created() {
+      this.vidWidth = Math.min(window.innerWidth * .8, 700);
+    }
+  });
+</script>
+</html>
