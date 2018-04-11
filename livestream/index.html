@@ -16,24 +16,76 @@
     <meta property="og:description"
           content="The 1st Ever Blockchain Career Fair in Silicon Valley. April 18th 3pm-7:30pm"/>
     <meta property="og:url" content="blockchaincareerfair.io"/>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    <p>Livestream</p>
-    <div id="livestreamapp">
-        {{msg}}
+
+<!-- NAVIGATION BAR -->
+<div id="header" class="header sticky" style="background-color: black">
+    <a href="../">
+        <img src="../img/BCF.png" class="nav-logo" alt="">
+    </a>
+    <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li id="navbar_home" class="navlink"><a href="../">Home</a></li>
+        </ul>
     </div>
+</div>
+
+<section id="media" class="">
+    <div class="container">
+            <div class="row">
+                <h2 class="text-center thin-header">Live Stream</h2>
+                <div class="col-md-4 tier tier2">
+                    <a data-mode="2" target="_blank" class="CryptoParency" href="http://cryptoparency.com/"></a>
+                    <a data-mode="2" target="_blank" class="dekrypt" href="http://www.dekrypt.capital/"></a>
+                </div>
+            </div>
+        <div class="tierbtn" id="sponsor" style="padding: 0">
+            <template v-for="sponsor in sponsors">
+                <a data-mode="2" target="_blank" :class="sponsor" href="http://cryptoparency.com/"></a>
+            </template>
+        </div>
+        <div class="wrapper">
+            <div class="schedule"></div>
+            <div class="schedule"></div>
+        </div>
+    </div>
+</section>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 
 <script>
-    new Vue({
-      el: '#livestreamapp',
-      data: {
-        msg: 'hello',
-      }
-    })
+  new Vue({
+    el: '#media',
+    data: {
+      vidHeight: 300,
+      vidWidth: 300,
+      sponsors: ['CryptoParency', 'dekrypt'],
+    },
+    methods: {
+    },
+    created() {
+      this.vidWidth = Math.min(window.innerWidth * .8, 700);
+    }
+  });
 </script>
+
+<style>
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .schedule {
+        width: 200px;
+        height: 200px;
+    }
+</style>
+
 
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBcrZwV2pDFM-tvXmNrTU0t5Aei4v4rlMk&callback=initMap">
