@@ -45,6 +45,7 @@
                     <i class="fa fa-link" style="padding-top: 2.5em"></i>
                 </a>
             </div>
+            <div></div>
             <div class="">
                 <a data-mode="2" target="_blank" :class="sponsors[1]" href="https://www.facebook.com/dekryptcapital/">
                     <i class="fa fa-link" style="padding-top: 2.5em"></i>
@@ -54,11 +55,24 @@
         <div class="wrapper" id="sponsors" style="padding: 0">
             <div class="text-center">
                 <h4 class="thin-header3">SCHEDULE</h4>
-                <p class="text-center">TBA</p>
+                <hr>
+                <template v-for="time in cctimes">
+                    <p>{{time}}</p>
+                </template>
+            </div>
+            <div class="text-center">
+                <h4 class="thin-header3">.</h4>
+                <hr>
+                <template v-for="time in times">
+                    <p>{{time}} PM</p>
+                </template>
             </div>
             <div class="text-center">
                 <h4 class="thin-header3">SCHEDULE</h4>
-                <p class="text-center">TBA</p>
+                <hr>
+                <template v-for="time in dctimes">
+                    <p>{{time}}</p>
+                </template>
             </div>
         </div>
     </div>
@@ -72,7 +86,7 @@
 <style>
     .wrapper {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 3fr 1fr 3fr;
     }
 
     /*
@@ -85,7 +99,7 @@
 
     .tierbtn {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 3fr 1fr 3fr;
         text-align: center;
         margin: 0 auto;
     }
