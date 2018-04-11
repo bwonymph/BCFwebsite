@@ -1259,10 +1259,16 @@ Social Links
 #sponsors .origo { background: url('../img/origo.jpg');     }
 #sponsors .daglabs { background: url('../img/daglabs.png');     }
 #sponsors .harbor { background: url('../img/harbor.png');     }
-
+#sponsors .coinbase { background: url('../img/coinbase-logo.png');     }
+#sponsors .fundrequest { background: url('../img/Fundrequest.png');     }
 
 #sponsors a:hover {
   transform: scale(1.1);
+  transition-duration: 300ms;
+}
+
+#sponsors a {
+  transition-duration: 300ms;
 }
 
 .tier, .tier a {
