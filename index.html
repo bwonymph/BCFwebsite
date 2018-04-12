@@ -84,7 +84,7 @@
             <li id="navbar_press" class="navlink"><a href="#register">Register</a></li>
             <li id="navbar_press" class="navlink"><a href="#sponsors">Sponsors</a></li>
             <li id="navbar_press" class="navlink"><a href="#location">Location</a></li>
-            <li class="navlink"><a @click="livestreamit" href="./livestream" target="_self">Livestream</a></li>
+            <li class="navlink" id="navbarspecial"><a @click="livestreamit" href="./livestream" target="_self">Livestream</a></li>
             <li id="navbar_press" class="navlink"><a href="#info">Contact Us</a></li>
         </ul>
     </div>
@@ -389,7 +389,7 @@
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
 <script>
   new Vue({
-    el: '#navbar',
+    el: '#navbarspecial',
     methods: {
       livestreamit(){
         window.location.href = './livestream';
