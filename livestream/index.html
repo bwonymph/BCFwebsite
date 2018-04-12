@@ -52,23 +52,23 @@
                 </a>
             </div>
         </div>
-        <div class="wrapper" id="sponsors" style="padding: 0">
-            <div class="text-center">
-                <h4 class="thin-header3">SCHEDULE</h4>
+        <div class="wrapper text-center" id="sponsors" style="padding: 0">
+            <div class="alter">
+                <h4 class="thin-header3">.</h4>
                 <hr>
                 <template v-for="time in cctimes">
                     <p>{{time}}</p>
                 </template>
             </div>
-            <div class="text-center">
-                <h4 class="thin-header3">.</h4>
+            <div class="alter">
+                <h4 class="thin-header3" style="color: #555555">SCHEDULE</h4>
                 <hr>
                 <template v-for="time in times">
                     <p>{{time}} PM</p>
                 </template>
             </div>
-            <div class="text-center">
-                <h4 class="thin-header3">SCHEDULE</h4>
+            <div class="alter">
+                <h4 class="thin-header3">.</h4>
                 <hr>
                 <template v-for="time in dctimes">
                     <p>{{time}}</p>
@@ -111,6 +111,14 @@
         margin: 0 auto !important;
     }
 
+    .alter p:nth-child(odd) {
+        background-color: whitesmoke;
+    }
+
+    .alter p {
+        font-size: larger;
+        font-weight: 400;
+    }
 </style>
 
 <!-- http://localhost:63342/BCFwebsite/videos/index.html -->
