@@ -1265,6 +1265,10 @@ Social Links
 #sponsors .fundrequest { background: url('../img/Fundrequest.png');     }
 #sponsors .ex { background: url('../img/exchange-union-coin.jpg');     }
 #sponsors .tezos { background: url('../img/tezos-1.svg');     }
+#sponsors .penta { background: url('../img/pentalogo.jpg');     }
+#sponsors .tierion { background: url('../img/Tierion_Logo.png');     }
+#sponsors .swarmfund { background: url('../img/Swarm Fund Bird Word Logo.png');     }
+#sponsors .penrose { background: url('../img/penrose_logo_vector.jpg');     }
 
 #sponsors a:hover {
   transform: scale(1.1);
