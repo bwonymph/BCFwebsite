@@ -1565,7 +1565,7 @@ a.hover-line{
 
 @media (max-width: 740px) {
   .clock {
-    height: 60px;
+    height: 60px !important;
   }
 }
 
