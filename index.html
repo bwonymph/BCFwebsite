@@ -176,13 +176,18 @@
                     </div>
                     <br>
                     <style>
-                        #livestream {
-                            background-color: #e6db27;
-                            color: black !important;
+                        @media (min-width: 740px) {
+                            #livestream {
+                                background-color: #e6db27;
+                                color: black !important;
+                            }
+                            #livestream:hover {
+                                /*background-color: #E6AD22;*/
+                                background-color: #fff580;
+                            }
                         }
-                        #livestream:hover {
-                            /*background-color: #E6AD22;*/
-                            background-color: #fff580;
+                        #livestream {
+                            display: none;
                         }
                     </style>
                     <div class="row">
