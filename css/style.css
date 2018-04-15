@@ -1563,6 +1563,12 @@ a.hover-line{
     margin: 0 auto;
 }
 
+@media (max-width: 740px) {
+  .clock {
+    height: 60px;
+  }
+}
+
 a.nav-link:link
 {
    color: black;

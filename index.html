@@ -174,16 +174,16 @@
                             </a>
                         </div>
                     </div>
-                    <br>
                     <style>
-                        #livestream {
-                            display: none;
-                        }
-                        @media (min-width: 740px) {
+
+                        @media (min-width: 0px) {
+                            #livestreambox {
+                                display: inline-block;
+                                margin-top: 1rem;
+                            }
                             #livestream {
                                 background-color: #e6db27;
                                 color: black !important;
-                                display: inline-block;
                             }
                             #livestream:hover {
                                 /*background-color: #E6AD22;*/
@@ -191,7 +191,7 @@
                             }
                         }
                     </style>
-                    <div class="row">
+                    <div class="row" id="livestreambox">
                         <div class="center">
                             <a href="./livestream"
                                target="_blank">
